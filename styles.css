@@ -1,0 +1,63 @@
+#logo{
+    /*Transforma os cantos da imagem em cantos curvo, arredondando a imagem*/
+    border-radius: 50%;
+    /*Modificar a largura do elemento*/
+    width: 5%;
+/*Modifica a altura do elemento*/
+    height: 5%;
+}
+body{
+    background-color: rgb(201, 187, 187);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+img,video{
+    width:500px;
+    height: 400px;
+}
+hr{
+    border: 1px solid;/*Define a largura e o tipo de borda*/
+    border-color:rgb(120, 42, 165);/*Define a cor da borda (linha)*/
+    width: 35%;
+}
+/*Abaixo estamos estilizando o ícone por meio da classe do co mando usando o ponto (.) antes do nome*/
+.icone{
+    border-radius:10%;/*Arredondar as bordas do elemento*/
+    width: 13%;
+    height:13%;
+}
+/*Estilizando o elemento pelo nome do comando*/
+section{
+    /*Modificação aula 24/10*/
+    background-color: rgb(125, 191, 211);
+    border: 1px solid;
+    border-color:rgb(8, 8, 8);
+    margin:3%;/*Define o espaço entre o limite da página web e os elementos contidos nela*/
+    padding: 2%;/*Define o espaço entrw o conteúdo do site e o elemento em que ele está contido*/
+}
+/*Modificação aula 24/10*/
+.ladoalado{
+    display:flex;/*Usa um layout flexível para alinhar os elementos*/
+    align-items: center;/*Alinhamento vertical dos itens*/
+    justify-content: center;/*Alinhamento horizontal dos iten*/
+    gap: 1rem;/*Espaço entre os elementos*/ 
+}
+/*Modificação aula 29/10*/
+.ladoalado2{
+    width: 100%;
+    background-color: rgb(97, 182, 197);
+    display: flex;
+    position: fixed;
+    z-index: 1;
+    align-items: center;
+    gap: 1rem;
+ }
+.menu-item{
+    text-decoration: none;/*Retira o traço abaixo do link*/
+    color:black;
+    font-weight: bold;/*Define como negrito*/
+    gap: 10px;
+}
+.menu-item:hover {
+    color: rgb(4, 104, 62);
+    font-size: 18px;
+}
